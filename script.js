@@ -1,7 +1,5 @@
-const SUPABASE_URL = 'sb_publishable_GfGh7WSMarzHpJ3ExHrJAA_7Od6CRg-';
-const SUPABASE_KEY = 'sb_secret_3LKfUmD4mi1V_Q9IFK6wBw_SrIWb5FE';
-
-const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+const SUPABASE_URL = 'https://jyfkohwmxklfckutuljm.supabase.co';
+const SUPABASE_KEY = 'sb_publishable_GfGh7WSMarzHpJ3ExHrJAA_70d6CRg-';
 
 async function loadSchedule() {
     const container = document.getElementById('schedule');
